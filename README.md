@@ -35,3 +35,13 @@ app.run()
 
 // run: node --env-file .env app.mjs
 ```
+
+
+### Write middleware
+```js
+export function Customleware(req, res, next) {
+    // Execute before handler
+    next()
+    // Execute after handler
+}
+```
