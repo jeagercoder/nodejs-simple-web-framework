@@ -135,4 +135,5 @@ dist
 # Local
 tempapp.mjs
 .env.local
+local_tests/*
 
